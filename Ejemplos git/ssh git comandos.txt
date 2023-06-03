@@ -1,0 +1,22 @@
+                                          SSH - comandos git
+
+
+ssh-keygen -t ed25519 -C "tu-email@live.com"
+
+ enter una vez
+
+enter otra vez
+
+enter de vuelta
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_ed25519
+
+clip < ~/.ssh/id_ed25519.pub  (este copia el token)
+
+ahora ir a la pagina del git
+perfil(globito) --> settings --> SSH and GPG keys --> ssh keys new -->pegas
+la key (linkeas la compu desde la q lo hiciste, con un nombre)
+
+
